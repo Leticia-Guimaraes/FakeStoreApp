@@ -4,6 +4,7 @@
   display: flex;
   padding: 47px 94px 50px 94px;
   gap: 10px;
+  background-color: #f7f7f7;
 }
 .bestSellers {
   width: 256px;
@@ -30,6 +31,7 @@
   border: none;
 }
 
-.showcaseContainer button :hover {
+.bestSellers button:hover {
   background-color: #282b2d;
+  cursor: pointer;
 }

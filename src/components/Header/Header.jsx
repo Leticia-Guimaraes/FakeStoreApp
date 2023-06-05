@@ -1,12 +1,13 @@
 import "./style.css"
 import { AiOutlineShoppingCart , AiOutlineUser } from 'react-icons/ai'
 import { BsFilterRight } from 'react-icons/bs'
+import Logo from "../Logo/Logo";
 
 const Header = () => {
   return (
     <header className="container">
   
-        <div id="logo">Findle</div>
+        <Logo />
 
           <ul className="homeUl">
             <li>Home</li>

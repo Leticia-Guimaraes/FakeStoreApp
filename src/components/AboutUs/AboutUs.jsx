@@ -19,13 +19,13 @@ const AboutUs = () => {
         />
         <Value 
         image={ BsBoxSeam }
-        title={'Large Assortment'}
-        text={'we offer many different types of products with fewer variations in each category.'}
+        title={'Fast & Free Shipping'}
+        text={'4-day or less delivery time, free shipping and an expedited delivery option.'}
         />
         <Value 
         image={ FiPhoneOutgoing }
-        title={'Large Assortment'}
-        text={'we offer many different types of products with fewer variations in each category.'}
+        title={'24/7 Support'}
+        text={'answers to any business related inquiry 24/7 and in real-time.'}
         />
         </div>
 

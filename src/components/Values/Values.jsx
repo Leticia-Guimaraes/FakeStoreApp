@@ -1,4 +1,4 @@
-import "./style.css"
+import "./styles.css"
 
 const Value = ({ image: Image, title, text}) => {
     return(

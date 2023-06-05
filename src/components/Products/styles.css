@@ -1,0 +1,94 @@
+.productsContainer {
+  background-color: #f7f7f7;
+}
+.search {
+  width: 449px;
+  height: 64px;
+  background: #f7f7f7;
+  border: 1px solid #383e43;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 0px 20px;
+}
+
+.search input {
+  background-color: #f7f7f7;
+  font-family: "Urbanist", sans-serif;
+  border: none;
+  font-size: 100%;
+  display: flex;
+  flex: 1;
+}
+
+.searches {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 55px 68px 55px 68px;
+  gap: 20px;
+}
+.search button {
+  width: 40px;
+  height: 40px;
+  border: 0;
+  background-color: #383e43;
+  color: #f7f7f7;
+  border-radius: 25%;
+  font-size: 18px;
+}
+input:focus {
+  outline: none;
+}
+
+.select {
+  width: 449px;
+  height: 64px;
+  background-color: #f7f7f7;
+  border: 1px solid #383e43;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  font-family: "Urbanist", sans-serif;
+  font-size: 100%;
+  background-size: 10%;
+  padding-right: 20px;
+  padding: 0px 20px;
+}
+
+.select option {
+  background-color: #f7f7f7;
+  font-family: "Urbanist", sans-serif;
+  border: none;
+  font-size: 100%;
+  display: flex;
+  flex: 1;
+}
+
+#title {
+  display: flex;
+  justify-content: center;
+  font-family: "Urbanist", sans-serif;
+  font-weight: 700;
+  color: #383e43;
+  padding-bottom: 76px;
+}
+
+.productsCards {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 0px 140px 76px 140px;
+  gap: 2%;
+}
+
+.productCard {
+  transition: transform 1.5s;
+}
+.productCard:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}

@@ -1,15 +1,22 @@
 import "./App.css";
-import { Header, Showcase, AboutUs } from "./components"
-import { useFormAction } from "react-router-dom";
+import { Header, Footer } from "./components";
+import { Home, ProductsPage, Product } from "./screens";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
 
 function App() {
-  return(
-  <div>
-    <Header />
-    <Showcase />
-    <AboutUs />
-  </div>
+  return (
+    <div>
+      <BrowserRouter>
+        <Header />
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/products" element={<ProductsPage />} />
+          <Route path="/product" element={<Product />} />
+        </Routes>
+      </BrowserRouter>
+      <Footer />
+    </div>
   );
-};
+}
 
 export default App;

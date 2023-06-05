@@ -1,0 +1,11 @@
+.informationContainer {
+  font-family: "Urbanist", sans-serif;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.informationContainer h1 {
+  font-size: 20px;
+  font-weight: 500px;
+}
