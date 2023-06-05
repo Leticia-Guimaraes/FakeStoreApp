@@ -38,6 +38,7 @@
   border-radius: 25%;
   font-size: 18px;
 }
+
 input:focus {
   outline: none;
 }
