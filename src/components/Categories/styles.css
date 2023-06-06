@@ -1,6 +1,5 @@
 .categoriesContainer {
   width: 100%;
-  height: 977px;
   background-color: #f7f7f7;
   color: #383e43;
   display: flex;
@@ -15,10 +14,12 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding: 85px 0px 59px 0px;
 }
 .titleCategories h1 {
   font-family: "Urbanist", sans-serif;
   font-weight: 700;
+  padding-bottom: 12px;
 }
 .titleCategories p {
   font-family: "Urbanist", sans-serif;
@@ -32,4 +33,18 @@
   font-family: "Poppins", sans-serif;
   font-weight: 500;
   font-size: 20px;
+  padding: 36px 0px 66px 0px;
+}
+
+.categoriesContainer button:hover {
+  color: #000000;
+  cursor: pointer;
+}
+
+.categoryCards {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 96px;
+  flex-wrap: wrap;
 }

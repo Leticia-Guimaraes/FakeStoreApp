@@ -40,7 +40,6 @@ const Products = () => {
         {products.map((product) => {
           return (
             <ProductCard
-              className="productCard"
               key={product.id}
               img={product.image}
               title={product.title}

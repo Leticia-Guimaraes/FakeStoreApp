@@ -27,7 +27,7 @@ const Showcase = () => {
       {cards?.map((card) => {
         return (
           <ProductCard
-            className="ProductCard"
+            id="ProductCard"
             img={card.image}
             title={card.title}
             price={card.price}

@@ -10,4 +10,9 @@ const ratedProducts = async () => {
   return response.data;
 };
 
-export { allProducts, ratedProducts };
+const getCategories = async () => {
+  const response = await api.get("/products/categories");
+  return response.data;
+};
+
+export { allProducts, ratedProducts, getCategories };

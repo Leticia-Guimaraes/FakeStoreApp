@@ -2,6 +2,7 @@
   width: 100%;
   height: 513px;
   background-color: #383e43;
+  flex-wrap: wrap;
 }
 
 .aboutUs {
