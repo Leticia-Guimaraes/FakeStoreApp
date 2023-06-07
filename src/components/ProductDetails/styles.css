@@ -15,17 +15,33 @@
   align-items: center;
 }
 
+.productIllustration h1 {
+  font-weight: normal;
+}
+
+.descriptionContainer {
+  width: 50%;
+}
+
 .stars {
   border-top: 1px solid;
+  font-size: 14px;
+  padding: 10px;
 }
 
 .productDetails {
   border-top: 1px solid;
   border-bottom: 1px solid;
+  padding: 10px;
 }
 
+.productDetails span {
+  font-size: 30px;
+}
 .descriptions {
   border-bottom: 1px solid;
+  font-size: 14px;
+  padding: 10px;
 }
 
 .descriptions ul {
