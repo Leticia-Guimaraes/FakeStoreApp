@@ -29,12 +29,14 @@ const Showcase = () => {
       </div>
       {cards?.map((card) => {
         return (
-          <ProductCard
-            id="ProductCard"
-            img={card.image}
-            title={card.title}
-            price={card.price}
-          />
+          <Link id="link" key={card.id} to={`/product/${card.id}`}>
+            <ProductCard
+              id="ProductCard"
+              img={card.image}
+              title={card.title}
+              price={card.price}
+            />
+          </Link>
         );
       })}
       {/* <ProductCard img={""} title={""} price={""} />
