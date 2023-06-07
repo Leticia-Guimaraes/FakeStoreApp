@@ -45,7 +45,7 @@ const Products = () => {
                 key={product.id}
                 img={product.image}
                 title={product.title}
-                price={product.price}
+                price={"R$ " + product.price}
               />
             </Link>
           );

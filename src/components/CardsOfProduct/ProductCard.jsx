@@ -4,7 +4,7 @@ const ProductCard = ({ img, title, price }) => {
     <div className="productCard">
       <img src={img} alt="" />
       <h1>{title}</h1>
-      <p>{"R$ " + price}</p>
+      <p>{price}</p>
     </div>
   );
 };

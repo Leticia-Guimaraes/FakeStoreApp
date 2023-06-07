@@ -32,7 +32,7 @@ const ProductDetails = () => {
         </div>
 
         <div className="productDetails">
-          <span>{products.price}</span>
+          <span>{"R$ " + products.price}</span>
           <p>{"Descrição do produto"}</p>
           <p>{"Descrição do produto"}</p>
         </div>

@@ -34,7 +34,7 @@ const Showcase = () => {
               id="ProductCard"
               img={card.image}
               title={card.title}
-              price={card.price}
+              price={"R$ " + card.price}
             />
           </Link>
         );
