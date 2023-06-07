@@ -3,6 +3,7 @@ import ProductCard from "../CardsOfProduct/ProductCard";
 import { BsSearch } from "react-icons/bs";
 import { useEffect, useState } from "react";
 import { allProducts } from "../../services/products";
+import { Link } from "react-router-dom";
 
 const Products = () => {
   const [products, setProducts] = useState([]);
@@ -39,12 +40,14 @@ const Products = () => {
       <div className="productsCards">
         {products.map((product) => {
           return (
-            <ProductCard
-              key={product.id}
-              img={product.image}
-              title={product.title}
-              price={product.price}
-            />
+            <Link id="link" key={product.id} to={`/product/${product.id}`}>
+              <ProductCard
+                key={product.id}
+                img={product.image}
+                title={product.title}
+                price={product.price}
+              />
+            </Link>
           );
         })}
       </div>

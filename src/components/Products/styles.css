@@ -86,6 +86,14 @@ input:focus {
   gap: 2%;
 }
 
+#link {
+  text-decoration: none;
+}
+
+.productsCards {
+  text-decoration: none;
+}
+
 .productCard {
   transition: transform 1.5s;
 }

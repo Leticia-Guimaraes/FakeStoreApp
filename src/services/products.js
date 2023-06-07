@@ -15,4 +15,9 @@ const getCategories = async () => {
   return response.data;
 };
 
-export { allProducts, ratedProducts, getCategories };
+const getProductById = async (id) => {
+  const response = await api.get(`/products/${id}`);
+  return response.data;
+};
+
+export { allProducts, ratedProducts, getCategories, getProductById };

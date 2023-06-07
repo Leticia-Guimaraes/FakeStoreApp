@@ -2,12 +2,14 @@ import "./style.css";
 import { AiOutlineShoppingCart, AiOutlineUser } from "react-icons/ai";
 import { BsFilterRight } from "react-icons/bs";
 import Logo from "../Logo/Logo";
-import { NavLink } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 
 const Header = () => {
   return (
     <header className="container">
-      <Logo />
+      <Link to={"/"} id="logo">
+        <Logo />
+      </Link>
 
       <ul className="homeUl">
         <NavLink className="navLink" to={"/"}>

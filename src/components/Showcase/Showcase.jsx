@@ -3,6 +3,7 @@ import { BsArrowRight } from "react-icons/bs";
 import ProductCard from "../CardsOfProduct/ProductCard";
 import { useState, useEffect } from "react";
 import { ratedProducts } from "../../services/products";
+import { Link } from "react-router-dom";
 
 const Showcase = () => {
   const [cards, setCards] = useState();
@@ -19,10 +20,12 @@ const Showcase = () => {
       <div className="bestSellers">
         <h1>Best Sellers</h1>
         <p>The easiest way to find the most wanted products</p>
-        <button>
-          See more
-          <BsArrowRight />
-        </button>
+        <Link to={"Products"}>
+          <button>
+            See more
+            <BsArrowRight />
+          </button>
+        </Link>
       </div>
       {cards?.map((card) => {
         return (

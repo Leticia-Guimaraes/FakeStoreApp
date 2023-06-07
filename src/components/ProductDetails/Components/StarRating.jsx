@@ -11,9 +11,10 @@ const StarRating = ({ productId }) => {
 
   const fetchRating = async () => {
     try {
+      console.log(productId);
       setIsLoading(true);
-      const response = await axios.get(`/api/products/${productId}/rating`);
-      const { rating } = response.data;
+      const response = await axios.get(`/products/${productId}`);
+      const { rating } = response.rate;
       setRating(rating);
       setIsLoading(false);
     } catch (error) {
